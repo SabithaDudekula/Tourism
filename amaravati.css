@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url("https://www.tripsavvy.com/thmb/nH70XRDdon8X4r56fYVIXSiHq7Y=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-497825214-22b1f19b7dcb4bd5ad3892accf2f857d.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.places {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;  
+}
+
+.card {
+    background-color: rgba(240, 248, 255, 0.9); 
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+.image {
+    display: block;
+    width: 600px; /* fixed width for larger display */
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+.card p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    background-color: darkred;
+}
